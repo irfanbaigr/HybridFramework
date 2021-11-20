@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.qa.learn.testng.ProjectStructure.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="forgottentPwdLinkTest"/>
+          <include name="tearDown"/>
+          <include name="loginPageTitleTest"/>
+          <include name="LoginAppTest"/>
+          <include name="loginLinkTest"/>
+        </methods>
+      </class> <!-- com.qa.learn.testng.ProjectStructure.LoginPageTest -->
+      <class name="com.qa.learn.testng.ProjectStructure.AccountsPageTest">
+        <methods>
+          <include name="accountsPageFootersTest"/>
+          <include name="setUp"/>
+          <include name="accountPageUrlTest"/>
+          <include name="accountsPageSetup"/>
+          <include name="tearDown"/>
+          <include name="accountsPageList"/>
+          <include name="accountPageHeadersTest"/>
+        </methods>
+      </class> <!-- com.qa.learn.testng.ProjectStructure.AccountsPageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
